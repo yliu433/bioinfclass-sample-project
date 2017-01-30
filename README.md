@@ -10,6 +10,8 @@ phylogenetic trees for each of these locations.
 Perhaps some pattern will emerge that I can study further.
 
 
+## Jan 30 2017, 2:45 pm
+
 Ran the location trees.
 Interesting data.
 Thinking about some other studies now.
