@@ -68,9 +68,13 @@ do
   csvcut -c sequence $loc_metadata > $loc_sequences
 
   # Do something interesting with each location's sequences, etc
-  # ...
+  # Directly count number of sequences
+  loc_spec_count="$loc_outdir/seqcount"
+  wc -l $loc_sequences > $loc_spec_count
+  
 done
 
 # Do something interesting with the things done for each location
-# ...
+loc_spec_counts="$outdir/location_specimen_counts.txt"
+find $outdir -name seqcount | xargs cat > $loc_spec_counts
 
